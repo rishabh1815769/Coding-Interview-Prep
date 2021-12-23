@@ -9,9 +9,12 @@ void printSubarrays(int arr[], int n)
         {
             for (int k = i; k <= j; k++)
             {
-                cout << arr[k] << ",";
+                cout << arr[k]   << ",";
             }
-            cout << endl;
+
+
+
+            cout <<     endl;
         }
     }
 }
